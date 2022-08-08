@@ -1,4 +1,4 @@
-package herencia;
+package ar.charlycimino.ejemplos.herencia;
 
 /**
  *
@@ -6,13 +6,11 @@ package herencia;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public class Auto extends Vehiculo {
+public class Moto extends Vehiculo {
 
-    boolean tieneAire;
+    int anchoDeManubrio;
 
-    void prenderAire() {
-        if (tieneAire) {
-            System.out.println("Encendiendo aire...");
-        }
+    void hacerWheliee() {
+        System.out.println("Haciendo la wheliee...");
     }
 }

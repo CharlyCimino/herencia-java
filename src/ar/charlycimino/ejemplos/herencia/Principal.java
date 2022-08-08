@@ -1,4 +1,4 @@
-package herencia;
+package ar.charlycimino.ejemplos.herencia;
 
 /**
  *
